@@ -13,6 +13,7 @@
 		30C3B7B81D43E36500F3833D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C3B7B61D43E36500F3833D /* Main.storyboard */; };
 		30C3B7BA1D43E36500F3833D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C3B7B91D43E36500F3833D /* Assets.xcassets */; };
 		30C3B7BD1D43E36500F3833D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C3B7BB1D43E36500F3833D /* LaunchScreen.storyboard */; };
+		30C3B7C61D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C3B7C51D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		30C3B7B91D43E36500F3833D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30C3B7BC1D43E36500F3833D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30C3B7BE1D43E36500F3833D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C3B7C41D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrechyHeaderCollectionViewLayout.h; sourceTree = "<group>"; };
+		30C3B7C51D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrechyHeaderCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				30C3B7BB1D43E36500F3833D /* LaunchScreen.storyboard */,
 				30C3B7BE1D43E36500F3833D /* Info.plist */,
 				30C3B7AD1D43E36500F3833D /* Supporting Files */,
+				30C3B7C41D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.h */,
+				30C3B7C51D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m */,
 			);
 			path = StrechyHeaderView;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				30C3B7B51D43E36500F3833D /* ViewController.m in Sources */,
 				30C3B7B21D43E36500F3833D /* AppDelegate.m in Sources */,
+				30C3B7C61D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m in Sources */,
 				30C3B7AF1D43E36500F3833D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
