@@ -42,6 +42,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30AA70BB1D47D15F007C4E7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30C3B7B31D43E36500F3833D /* ViewController.h */,
+				30C3B7B41D43E36500F3833D /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		30AA70BC1D47D16D007C4E7A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				30C3B7B01D43E36500F3833D /* AppDelegate.h */,
+				30C3B7B11D43E36500F3833D /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		30AA70BD1D47D17E007C4E7A /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				30C3B7C41D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.h */,
+				30C3B7C51D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
 		30C3B7A11D43E36500F3833D = {
 			isa = PBXGroup;
 			children = (
@@ -61,17 +88,11 @@
 		30C3B7AC1D43E36500F3833D /* StrechyHeaderView */ = {
 			isa = PBXGroup;
 			children = (
-				30C3B7B01D43E36500F3833D /* AppDelegate.h */,
-				30C3B7B11D43E36500F3833D /* AppDelegate.m */,
-				30C3B7B31D43E36500F3833D /* ViewController.h */,
-				30C3B7B41D43E36500F3833D /* ViewController.m */,
-				30C3B7B61D43E36500F3833D /* Main.storyboard */,
 				30C3B7B91D43E36500F3833D /* Assets.xcassets */,
-				30C3B7BB1D43E36500F3833D /* LaunchScreen.storyboard */,
-				30C3B7BE1D43E36500F3833D /* Info.plist */,
+				30AA70BC1D47D16D007C4E7A /* App */,
+				30AA70BB1D47D15F007C4E7A /* Controller */,
+				30AA70BD1D47D17E007C4E7A /* Modal */,
 				30C3B7AD1D43E36500F3833D /* Supporting Files */,
-				30C3B7C41D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.h */,
-				30C3B7C51D43E3B400F3833D /* StrechyHeaderCollectionViewLayout.m */,
 			);
 			path = StrechyHeaderView;
 			sourceTree = "<group>";
@@ -79,6 +100,9 @@
 		30C3B7AD1D43E36500F3833D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30C3B7BE1D43E36500F3833D /* Info.plist */,
+				30C3B7BB1D43E36500F3833D /* LaunchScreen.storyboard */,
+				30C3B7B61D43E36500F3833D /* Main.storyboard */,
 				30C3B7AE1D43E36500F3833D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -306,6 +330,7 @@
 				30C3B7C31D43E36500F3833D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
