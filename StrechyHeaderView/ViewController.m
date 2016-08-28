@@ -66,7 +66,7 @@ NSString * const kHeaderIdent = @"Header";
         UIImageView *imageView;
         imageView = [[UIImageView alloc]initWithFrame:bounds];
         [imageView setImage:[UIImage imageNamed:@"header-background"]];
-        [imageView setContentMode:UIViewContentModeScaleToFill];
+        [imageView setContentMode:UIViewContentModeScaleAspectFill];
         [imageView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
         [imageView setClipsToBounds:YES];
         [header addSubview:imageView];
