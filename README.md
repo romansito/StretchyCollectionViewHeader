@@ -9,4 +9,3 @@ Here I show how to achieve this precious tast in Objective-C.
 
 
 
-<h6>This is a demo from an old blog I found. Not necessarily my code.</h6>
