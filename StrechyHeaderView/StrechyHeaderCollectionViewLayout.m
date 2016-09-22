@@ -33,7 +33,7 @@
     //check if you pull bellow past the lowest point
     if (offset.y < minY) {
         //Figure out how much we pulled down.
-        CGFloat deltaY = fabsf(offset.y - minY);
+        CGFloat deltaY = fabs(offset.y - minY);
         
         for (UICollectionViewLayoutAttributes *attrs in attributes) {
             // Locate the header attributes
